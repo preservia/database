@@ -1,0 +1,15 @@
+title: PreserveDD
+description: The PreserveDB
+theme: just-the-docs
+
+url: https://preservia.github.io
+baseurl: /database   # Change to match your repo name
+
+# Features
+color_scheme: light
+search_enabled: true
+
+# Optional links in the top right
+aux_links:
+  "Preservia Main Site":
+    - "/"

@@ -5,8 +5,9 @@ parent: Content
 
 # Example Game Title
 
-![Game Icon](../../media/icons/missing.png)
+![](../../media/icons/missing.png)
 
+## Description
 This is an example details page for content saved in the PreserveDB. As you can see, this decription is quite long and detailed. This entire page actually has full info about the content, including platform, date released, screenshots, an icon, and a whole lot more. This description is getting pretty long... maybe because I listed off a bunch of things like platform, data released, screenshots, an icon, and a whole lot more. I only did that so I can see how a "*real*" description would look on this site. This is a placeholder.
 
 ---

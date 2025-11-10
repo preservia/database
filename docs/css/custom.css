@@ -1,0 +1,15 @@
+.game-header {
+  position: relative;
+  height: 80px;
+}
+
+.game-icon {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+}

@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+{% if page.icon %}
+<div class="game-header">
+  <img class="game-icon" src="{{ page.icon | relative_url }}" alt="{{ page.title }} icon">
+</div>
+{% endif %}
+
+{{ content }}

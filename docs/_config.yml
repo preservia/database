@@ -19,4 +19,4 @@ nav:
     url: /contents/
     children:
       - title: Ship of Harkinian
-        url: /entries/example.md
+        url: /contents/example.md

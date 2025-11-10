@@ -13,3 +13,10 @@ aux_links:
     - "/ports"
   "The 3DS Font Library":
     - "/fonts"
+
+nav:
+  - title: Nintendo Switch Port Archive
+    url: /contents/
+    children:
+      - title: Ship of Harkinian
+        url: /entries/example.md

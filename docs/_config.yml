@@ -1,6 +1,9 @@
 title: PreserveDB
 description: The PreserveDB
 remote_theme: just-the-docs/just-the-docs
+just_the_docs:
+  custom_css:
+    - assets/css/custom.css
 
 url: https://preservia.github.io
 baseurl: /database
@@ -17,10 +20,9 @@ aux_links:
 
 nav_enabled: true
 nav_sort: case_sensitive
-
 nav:
   - title: Nintendo Switch Port Archive
     url: /contents/
     children:
       - title: Ship of Harkinian
-        url: /contents/example.md
+        url: /contents/soh.md

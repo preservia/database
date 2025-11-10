@@ -1,6 +1,5 @@
 ---
-title: Example Game
-parent: Games
+title: Example
 ---
 
 # Example Game

@@ -5,7 +5,7 @@ parent: Games
 
 # Example Game
 
-![Game Cover](/media/icons/missing.png){: .rounded }
+![Game Cover](./media/icons/missing.png){: .rounded }
 
 This is a test entry.  
 This is a description.

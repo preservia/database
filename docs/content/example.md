@@ -24,3 +24,10 @@ This is an example details page for content saved in the PreserveDB. As you can 
 
 ![](/media/images/example1.jpg)
 ![](/media/images/example2.jpg)
+
+---
+
+## Links
+
+View on:
+[The Nintendo Switch Port Archive](https://preservia.github.io/ports) {: .label .label-green }

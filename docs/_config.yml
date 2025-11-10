@@ -3,13 +3,13 @@ description: The PreserveDB
 remote_theme: just-the-docs/just-the-docs
 
 url: https://preservia.github.io
-baseurl: /database   # Change to match your repo name
+baseurl: /database
 
-# Features
 color_scheme: light
 search_enabled: true
 
-# Optional links in the top right
 aux_links:
-  "Preservia Main Site":
-    - "/"
+  "Nintendo Switch Port Archive":
+    - "/ports"
+  "The 3DS Font Library":
+    - "/fonts"

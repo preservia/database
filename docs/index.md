@@ -11,7 +11,7 @@ Welcome to **PreserviaDB**, the official content database for  Preservia. Here y
 
 ## Testing
 
-- [Example Game](./games/example.md)
+- [Example Game](./content/example.md)
 - [About Preservia](#about)
 
 ---

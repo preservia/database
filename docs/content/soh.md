@@ -1,6 +1,9 @@
 ---
 title: Ship of Harkinian
 parent: Content
+pid: TEST001
+icon: /media/icons/missing.png
+layout: game
 ---
 
 # Ship of Harkinian

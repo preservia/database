@@ -5,7 +5,7 @@ nav_order: 1
 
 # PreserveDB
 
-Welcome to **PreserviaDB**, the official content database for  Preservia. Here you’ll find detailed information about all the content Preservia has archived.
+Welcome to **PreserveDB**, the official content database for  Preservia. Here you’ll find detailed information about all the content Preservia has archived.
 
 
 ---

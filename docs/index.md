@@ -4,14 +4,14 @@ title: Home
 
 # PreserveDB
 
-Welcome to **PreserviaDB**, the official database for all content archived by Preservia.  
-Here you’ll find detailed information about each preserved game, including mods, save files, updates, and more.
+Welcome to **PreserviaDB**, the official content database for  Preservia. Here you’ll find detailed information about all the content Preservia has archived.
+
 
 ---
 
-## Quick Links
+## Testing
 
-- [Game Database](./games/example.md)
+- [Example Game](./games/example.md)
 - [About Preservia](#about)
 
 ---

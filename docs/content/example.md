@@ -1,5 +1,6 @@
 ---
 title: Example
+parent: Content
 ---
 
 # Example Game

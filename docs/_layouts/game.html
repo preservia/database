@@ -2,10 +2,20 @@
 layout: default
 ---
 
-{% if page.icon %}
 <div class="game-header">
-  <img class="game-icon" src="{{ page.icon | relative_url }}" alt="{{ page.title }} icon">
+  {% if page.icon %}
+  <img src="{{ page.icon | relative_url }}" alt="{{ page.title }} icon" class="game-icon">
+  {% endif %}
+  <div class="game-info">
+    <h1 class="game-title">{{ page.title }}</h1>
+    <p class="game-meta">
+      {{ page.platform }}
+      {% if page.release %} • {{ page.release }}{% endif %}
+      {% if page.preserve_id %} • <span class="preserve-id">{{ page.preserve_id }}</span>{% endif %}
+    </p>
+  </div>
 </div>
-{% endif %}
+
+<hr class="divider">
 
 {{ content }}

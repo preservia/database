@@ -9,7 +9,7 @@ Welcome to **PreserveDB**, the official content database for  Preservia. Here yo
 
 ---
 
-## Browse by type
+## Browse by content type
 
 - [Ports](./content/ports/index.md)
 

@@ -43,3 +43,36 @@
   border-top: 1px solid #ddd;
   margin: 1.5rem 0;
 }
+
+.gallery {
+  display: flex;
+  overflow-x: auto;
+  gap: 12px;
+  padding: 10px 0;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+}
+
+.gallery::-webkit-scrollbar {
+  height: 8px;
+}
+
+.gallery::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+.gallery img {
+  flex: 0 0 auto;
+  width: 260px;
+  border-radius: 12px;
+  scroll-snap-align: start;
+  object-fit: cover;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}

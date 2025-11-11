@@ -5,15 +5,13 @@ nav_order: 1
 
 # PreserveDB
 
-Welcome to **PreserveDB**, the official content database for  Preservia. Here you’ll find detailed information about all the content Preservia has archived.
-
+Welcome to **PreserveDB**, the official content database for  Preservia. Here you’ll find detailed information about all content archived by Preservia.
 
 ---
 
-## Testing
+## Browse by type
 
-- [Example Game](./content/example.md)
-- [About Preservia](#about)
+- [Ports](./content/ports/index.md)
 
 ---
 

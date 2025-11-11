@@ -1,5 +1,5 @@
 ---
-parent: games
+parent: Games
 layout: game
 title: Example Game
 preserve_id: E0123456

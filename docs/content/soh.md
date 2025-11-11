@@ -1,9 +1,12 @@
 ---
-title: Ship of Harkinian
 parent: Content
-pid: TEST001
-icon: /media/icons/missing.png
 layout: game
+title: Ship of Harkinian
+preserve_id: TEST001
+platform: Switch
+release: 2024
+icon: /media/icons/missing.png
+
 ---
 
 # Ship of Harkinian

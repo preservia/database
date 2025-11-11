@@ -20,9 +20,3 @@ aux_links:
 
 nav_enabled: true
 nav_sort: case_sensitive
-nav:
-  - title: Nintendo Switch Port Archive
-    url: /contents/
-    children:
-      - title: Ship of Harkinian
-        url: /contents/soh.md

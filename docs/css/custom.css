@@ -1,15 +1,45 @@
 .game-header {
-  position: relative;
-  height: 80px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
 }
 
 .game-icon {
-  position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
-  width: 64px;
-  height: 64px;
-  border-radius: 12px;
+  width: 96px;
+  height: 96px;
+  border-radius: 16px;
   object-fit: cover;
-  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.game-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.game-title {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.game-meta {
+  margin-top: 0.25rem;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.preserve-id {
+  background: #f2f2f2;
+  padding: 0.1rem 0.4rem;
+  border-radius: 6px;
+  font-family: monospace;
+  font-size: 0.85rem;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 1.5rem 0;
 }

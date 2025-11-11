@@ -11,6 +11,7 @@ Welcome to **PreserveDB**, the official content database for  Preservia. Here yo
 
 ## Browse by content type
 
+- [Games](./contents/games/index.md)
 - [Ports](./content/ports/index.md)
 
 ---

@@ -6,7 +6,7 @@ just_the_docs:
     - docs/css/custom.css
 
 url: https://preservia.github.io
-baseurl: /database
+baseurl: /database/docs
 
 color_scheme: light
 search_enabled: true

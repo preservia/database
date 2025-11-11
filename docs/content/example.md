@@ -15,13 +15,14 @@ images: 1
 ---
 
 ## Description
-Ship of Harkinian is a port of The Legend of Zelda: Ocarina of Time to modern platforms. This version runs natively on the Nintendo Switch and it built with decompiled source code of the original game. It adds numerous improvements, such as widescreen support, higher frame rates, mod support, and features like randomizers, cheat menus, save-states, mod support, and so much more.
+This is an example description for an example game. This example content listing has lots of details like platform, release date, content type, and a whole lot more. 
 
 ---
 
 ## Details
 
 - Platform: Switch
+- Type: Port
 - Released: 1-1-2025
 - Preserve ID: `E0123456`
 - Version: `1.0.0`

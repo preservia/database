@@ -42,6 +42,6 @@ This is an example game to showcase how games will look on this website!
 - MetadataString: `SOH:PORT:SWITCH:8.0.6`
 
 ### Files:
-`Example Game [E0123456](GAME).file`
-`Example Game [E0123456](UPDATE)(1.3.2).file`
-`DLC for Example Game [E0654321].file`
+`Example Game [E0123456](GAME).file`  
+`Example Game [E0123456](UPDATE)(1.3.2).file`  
+`DLC for Example Game [E0654321].file`  

@@ -1,5 +1,7 @@
 title: PreserveDB
-description: The PreserveDB
+description: The Preservia Content Database
+logo: "site-logo.png"
+
 remote_theme: just-the-docs/just-the-docs
 just_the_docs:
   custom_css:

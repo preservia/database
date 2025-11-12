@@ -1,5 +1,5 @@
 <div align=center>
-  <img src="assets/logo.png" width=250>
+  <img src="logo.png" width=250>
   <p>The Preservia Content Database</p>
 </div>
 

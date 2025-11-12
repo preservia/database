@@ -1,7 +1,8 @@
 <div align=center>
-  <img src="logo.png" width=250>
-  <p>The Preservia Content Database</p>
+  <img src="logo.png" height=140>
 </div>
+
+---
 
 The PreserveDB site is available [here](https://preservia.github.io/database), `db.json` is available at:  
 ```

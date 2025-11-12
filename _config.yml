@@ -1,7 +1,7 @@
 title: PreserveDB
 description: The Preservia Content Database
 logo: "site-logo.png"
-color-scheme: preservedb
+color-scheme: preserve
 
 remote_theme: just-the-docs/just-the-docs
 just_the_docs:
@@ -11,7 +11,6 @@ just_the_docs:
 url: https://preservia.github.io
 baseurl: /database
 
-color_scheme: light
 search_enabled: true
 
 aux_links:

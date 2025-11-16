@@ -1,6 +1,7 @@
 ---
 title: Home
 nav_order: 1
+layout: front
 featured1: P4206257
 featured2: P4206257
 featured3: P4206257
@@ -70,18 +71,22 @@ document.addEventListener("DOMContentLoaded", async () => {
       const iconURL =
         `https://raw.githubusercontent.com/preservia/media/refs/heads/main/icons/${id}.png`;
 
-      container.innerHTML += `
-        <a href="${pageURL}" class="featured-card">
-          <img src="${iconURL}" class="featured-icon" alt="${entry.name} icon">
-          <div class="featured-info">
-            <div class="featured-title">${entry.name}</div>
-            <div class="featured-meta">
-              <span class="featured-type">${entry.type}</span>
-              ${entry.version ? `<span class="featured-version">v${entry.version}</span>` : ""}
-            </div>
-          </div>
-        </a>
-      `;
+		container.innerHTML += `
+			<a href="${pageURL}" class="featured-card">
+				<img src="${iconURL}" class="featured-icon" alt="${entry.name} icon">
+				<div class="featured-info">
+					<div class="featured-title">${entry.name}</div>
+					<div class="featured-meta">
+						<span class="featured-type">${entry.type.charAt(0).toUpperCase()}${entry.type.slice(1)}</span>
+       	 				${
+							entry.version
+							? `<code class="featured-version">v${entry.version}</code>`
+							: ""
+						}
+					</div>
+				</div>
+			</a>
+		`;
     });
 
   } catch (err) {

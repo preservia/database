@@ -2,7 +2,7 @@ $color-scheme: preserve;
 $body-background-color: $grey-dk-300;
 $body-heading-color: $grey-lt-000;
 $body-text-color: $grey-lt-300;
-$link-color: $green-000;
+
 $nav-child-link-color: $grey-dk-000;
 $sidebar-color: $grey-dk-300;
 $base-button-color: $grey-dk-250;
@@ -18,3 +18,4 @@ $border-color: $grey-dk-200;
 @import "./vendor/OneDarkJekyll/syntax"; // this is the one-dark-vivid atom syntax theme
 
 $green-000: #00e230 !default
+$link-color: $green-000;

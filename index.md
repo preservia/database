@@ -1,7 +1,6 @@
 ---
 title: Home
 nav_order: 1
-layout: front
 featured1: P4206257
 featured2: P4206257
 featured3: P4206257

@@ -77,7 +77,6 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-/* Wrapper aligns cards horizontally */
 .featured-wrapper {
   display: flex;
   gap: 1rem;
@@ -86,7 +85,6 @@
   scroll-snap-type: x mandatory;
 }
 
-/* Individual cards */
 .featured-card {
   display: flex;
   align-items: center;

@@ -23,7 +23,7 @@ Coming soon.
 
 - [Games](./content/games/index.md)
 - [Ports](./content/ports/index.md)
-- [Homebrew](/)
+- [Homebrew](./content/homebrew/index.md)
 - [Mods](/)
 - [Firmware](/)
 
@@ -31,4 +31,4 @@ Coming soon.
 
 ## About
 
-Preservia is a preservation project
+Preservia is a digital preservation project, mainly focused on preserving content associated with the Nintendo Switch, including games, updates, DLC, mods, homebrew, firmware, and a whole lot more. Currently, only homebrew software is available to the public. While the Nintendo Switch is the main focus of this project, some content for some other consoles will be available as well.

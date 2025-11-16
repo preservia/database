@@ -5,9 +5,9 @@ title: The Simpsons Hit & Run
 preserve_id: P5300477
 platform: Switch
 release: 10-05-2023
-version: 1.1.0
+version: 0.6.1
 string: SIMPSONSH&R:PORT:SWITCH:0.6.1
-images: 2
+images: 4
 ---
 
 [Download](https://preservia.github.io/ports){: .btn .btn-blue .mr-2 }

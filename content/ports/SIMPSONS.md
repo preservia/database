@@ -1,0 +1,42 @@
+---
+parent: Ports
+layout: game
+title: The Simpsons Hit & Run
+preserve_id: P5300477
+platform: Switch
+release: 10-05-2023
+version: 1.1.0
+string: SIMPSONSH&R:PORT:SWITCH:0.6.1
+images: 2
+---
+
+[Download](https://preservia.github.io/ports){: .btn .btn-blue .mr-2 }
+[View on GitHub](https://github.com/ZenoArrows/The-Simpsons-Hit-and-Run){: .btn }
+
+---
+
+## Description
+This is a port of The Simpsons Hit & Run to the Nintendo Switch based on the leaked source code. The full game should be playable, including local multiplayer in the bonus game. The port is however still incomplete, so some glitches can be observed and some visual effects are missing compared to the PC version.
+
+---
+
+## Gallery
+
+{% if page.images %}
+<div class="gallery">
+  {% for i in (1..page.images) %}
+  <img src="https://github.com/preservia/media/blob/main/images/{{ page.preserve_id }}/{{ i }}.jpg?raw=true" alt="Image {{ i }}">
+  {% endfor %}
+</div>
+{% endif %}
+
+---
+
+## Details
+
+- Platform: {{ page.platform }}
+- Released: {{ page.release }}
+- Preserve ID: `{{ page.preserve_id }}`
+- Version: `{{ page.version }}`
+- MetadataString: `{{ page.string }}`
+

@@ -22,5 +22,45 @@
     "version": "1.1.0",
     "icon": "media/icons/P1946048.png",
     "description": "Fallout 2 Community Edition is a fully working re-implementation of Fallout 2, with the same original gameplay, engine bugfixes, and some quality of life improvements, that works (mostly) hassle-free on multiple platforms."
+  },
+  "P4513428": {
+    "type": "port",
+    "name": "Fallout CE",
+    "release": "12-24-2024 ",
+    "version": "1.0.0",
+    "icon": "media/icons/P4513428.png",
+    "description": "Fallout Community Edition is a fully working re-implementation of Fallout, with the same original gameplay, engine bugfixes, and some quality of life improvements, that works (mostly) hassle-free on multiple platforms."
+  },
+  "P8997097": {
+    "type": "port",
+    "name": "Max Payne",
+    "release": "2-24-2021",
+    "version": 1,
+    "icon": "media/icons/P8997097.png",
+    "description": "This is a wrapper/port of the Android version of Max Payne Mobile. It loads the original game binary, patches it and runs it. It’s basically as if we emulate a minimalist Android environment in which we natively run the original Android binary as is. This is probably not entirely stable yet, so expect issues."
+  },
+  "P6123501": {
+    "type": "port",
+    "name": "OpenLara",
+    "release": "1-08-2021",
+    "version": "8.01.21",
+    "icon": "media/icons/P6123501.png",
+    "description": "Classic Tomb Raider open-source engine"
+  },
+  "P2085144": {
+    "type": "port",
+    "name": "OpenRCT2",
+    "release": "5-06-2019",
+    "version": 1.06,
+    "icon": "media/icons/P2085144.png",
+    "description": "An open-source re-implementation of RollerCoaster Tycoon 2. A construction and management simulation video game that simulates amusement park management."
+  },
+  "P7079110": {
+    "type": "port",
+    "name": "Perfect Dark",
+    "release": "5-14-2024",
+    "version": "Latest",
+    "icon": "media/icons/P7079110.png",
+    "description": "work in progress port of n64decomp/perfect_dark to modern platforms"
   }
 }

@@ -23,7 +23,7 @@ Welcome to **PreserveDB**, the official content database for  Preservia. Here yo
 
 ## Recently Added
 
-<div id="recently-added" class="featured-wrapper">
+<div id="recently-container" class="featured-wrapper">
 	Loading...
 </div>
 
@@ -101,47 +101,42 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 <script>
 document.addEventListener("DOMContentLoaded", async () => {
-  const container = document.getElementById("recently-added");
-  if (!container) return;
+  const container = document.getElementById("recently-container");
 
   try {
-    const resp = await fetch("/database/db.json");
-    if (!resp.ok) throw new Error("Failed to fetch db.json");
-    const db = await resp.json();
-
-    const allIds = Object.keys(db || {});
-    const lastIds = allIds.slice(-5).reverse();
+    const response = await fetch("/database/db.json");
+    const db = await response.json();
 
     container.innerHTML = "";
 
-    if (lastIds.length === 0) {
-      container.innerHTML = "<div class='featured-card missing'>No recent entries found.</div>";
-      return;
-    }
+    const allIDs = Object.keys(db);
+    const recentIDs = allIDs.slice(-5).reverse();
 
-    lastIds.forEach(id => {
+    recentIDs.forEach(id => {
       const entry = db[id];
       if (!entry) {
         container.innerHTML += `<div class="featured-card missing">Missing entry for ${id}</div>`;
         return;
       }
 
-      const typePlural = (entry.type || "item") + "s";
+      const typePlural = entry.type + "s";
       const pageURL = `/database/content/${typePlural}/${id}.html`;
-      const iconURL = `https://raw.githubusercontent.com/preservia/media/refs/heads/main/icons/${id}.png`;
 
-      const capType = (entry.type && entry.type.length > 0)
-        ? entry.type.charAt(0).toUpperCase() + entry.type.slice(1)
-        : "";
+      const iconURL =
+        `https://raw.githubusercontent.com/preservia/media/refs/heads/main/icons/${id}.png`;
 
       container.innerHTML += `
         <a href="${pageURL}" class="featured-card">
-          <img src="${iconURL}" class="featured-icon" alt="${(entry.name||id)} icon">
+          <img src="${iconURL}" class="featured-icon" alt="${entry.name} icon">
           <div class="featured-info">
-            <div class="featured-title">${entry.name || id}</div>
+            <div class="featured-title">${entry.name}</div>
             <div class="featured-meta">
-              <span class="featured-type">${capType}</span>
-              ${entry.version ? `<code class="featured-version">v${entry.version}</code>` : ""}
+              <span class="featured-type">${entry.type.charAt(0).toUpperCase()}${entry.type.slice(1)}</span>
+              ${
+                entry.version
+                ? `<code class="featured-version">v${entry.version}</code>`
+                : ""
+              }
             </div>
           </div>
         </a>
@@ -149,8 +144,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     });
 
   } catch (err) {
-    console.error("Recently Added error:", err);
-    container.innerHTML = "<div class='featured-card missing'>Error loading recently added.</div>";
+    container.innerHTML = "Error loading recently added content.";
+    console.error(err);
   }
 });
 </script>

@@ -22,7 +22,10 @@ Welcome to **PreserveDB**, the official content database for  Preservia. Here yo
 ---
 
 ## Recently Added
-Coming soon.
+
+<div id="recently-added">
+	Loading...
+</div>
 
 ---
 
@@ -92,6 +95,62 @@ document.addEventListener("DOMContentLoaded", async () => {
   } catch (err) {
     container.innerHTML = "Error loading featured content.";
     console.error(err);
+  }
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+  const container = document.getElementById("recently-added");
+  if (!container) return;
+
+  try {
+    const resp = await fetch("/database/db.json");
+    if (!resp.ok) throw new Error("Failed to fetch db.json");
+    const db = await resp.json();
+
+    const allIds = Object.keys(db || {});
+    const lastIds = allIds.slice(-5).reverse();
+
+    container.innerHTML = "";
+
+    if (lastIds.length === 0) {
+      container.innerHTML = "<div class='featured-card missing'>No recent entries found.</div>";
+      return;
+    }
+
+    lastIds.forEach(id => {
+      const entry = db[id];
+      if (!entry) {
+        container.innerHTML += `<div class="featured-card missing">Missing entry for ${id}</div>`;
+        return;
+      }
+
+      const typePlural = (entry.type || "item") + "s";
+      const pageURL = `/database/content/${typePlural}/${id}.html`;
+      const iconURL = `https://raw.githubusercontent.com/preservia/media/refs/heads/main/icons/${id}.png`;
+
+      const capType = (entry.type && entry.type.length > 0)
+        ? entry.type.charAt(0).toUpperCase() + entry.type.slice(1)
+        : "";
+
+      container.innerHTML += `
+        <a href="${pageURL}" class="featured-card">
+          <img src="${iconURL}" class="featured-icon" alt="${(entry.name||id)} icon">
+          <div class="featured-info">
+            <div class="featured-title">${entry.name || id}</div>
+            <div class="featured-meta">
+              <span class="featured-type">${capType}</span>
+              ${entry.version ? `<code class="featured-version">v${entry.version}</code>` : ""}
+            </div>
+          </div>
+        </a>
+      `;
+    });
+
+  } catch (err) {
+    console.error("Recently Added error:", err);
+    container.innerHTML = "<div class='featured-card missing'>Error loading recently added.</div>";
   }
 });
 </script>

@@ -1,9 +1,10 @@
 ---
 title: Home
 nav_order: 1
-featured1: P4206257
-featured2: P4206257
-featured3: P4206257
+featured: 
+	- P4206257
+	- P4206257
+	- P4206257
 ---
 
 # PreserveDB
@@ -46,9 +47,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   const container = document.getElementById("featured-container");
 
   const featuredIDs = [
-    "{{ page.featured1 }}",
-    "{{ page.featured2 }}",
-    "{{ page.featured3 }}"
+    {% for f in page.featured %}
+      "{{ f }}",
+    {% endfor %}
   ].filter(x => x && x.trim().length > 0);
 
   try {

@@ -23,7 +23,7 @@ Welcome to **PreserveDB**, the official content database for  Preservia. Here yo
 
 ## Recently Added
 
-<div id="recently-added">
+<div id="recently-added" class="featured-wrapper">
 	Loading...
 </div>
 

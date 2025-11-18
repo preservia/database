@@ -10,13 +10,24 @@ layout: table_wrappers
 <meta property="og:url" content="{{ page.url | absolute_url }}" />
 <meta property="og:site_name" content="{{ site.title | escape }}" />
 <meta property="og:type" content="website" />
-<meta property="og:image" content="{{ page.og_image | default: site.og_image | absolute_url }}" />
+
+{% assign auto_og = '/assets/previews/' | append: page.preserve_id | append: '.png' %}
+
+{% if page.og_image %}
+  {% assign final_og = page.og_image %}
+{% elsif page.preserve_id %}
+  {% assign final_og = auto_og %}
+{% else %}
+  {% assign final_og = site.og_image %}
+{% endif %}
+
+<meta property="og:image" content="{{ final_og | absolute_url }}" />
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="{{ page.title | escape }}" />
 <meta name="twitter:description" content="{{ page.description | default: site.description | escape }}" />
-<meta name="twitter:image" content="{{ page.og_image | default: site.og_image | absolute_url }}" />
+<meta name="twitter:image" content="{{ final_og | absolute_url }}" />
 
 <html lang="{{ site.lang | default: 'en-US' }}">
 {% include head.html %}

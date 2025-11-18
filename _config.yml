@@ -1,6 +1,6 @@
 title: PreserveDB
 description: The Preservia Content Database
-logo: "site-logo.png"
+logo: "/assets/site-logo.png"
 remote_theme: just-the-docs/just-the-docs
 color_scheme: preserve
 

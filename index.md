@@ -1,6 +1,7 @@
 ---
 title: Home
 nav_order: 1
+og_image: /assets/site-preview.png
 featured: 
   - P4206257
   - P8997097

@@ -62,5 +62,53 @@
     "version": "Latest",
     "icon": "media/icons/P7079110.png",
     "description": "work in progress port of n64decomp/perfect_dark to modern platforms"
+  },
+  "P0610933": {
+    "type": "port",
+    "name": "Space Cadet Pinball",
+    "release": "10-14-2021",
+    "version": "1.1.1",
+    "icon": "media/icons/P0610933.png",
+    "description": "Space Cadet Pinball, originally released with Windows 95 in 1995, is a 3D pinball game. This version is based on a reverse engineering of the original game that was ported to the Nintendo Switch."
+  },
+  "P7745889": {
+    "type": "port",
+    "name": "Spaghetti Kart",
+    "release": "6-21-2025",
+    "version": "1.0.0",
+    "icon": "media/icons/P7745889.png",
+    "description": "Spaghetti Kart is a port of Mario Kart 64 to the Nintendo Switch. This port has many improvements like widescreen support, increased higher frame-rate, and more."
+  },
+  "P8653461": {
+    "type": "port",
+    "name": "Starship",
+    "release": "5-24-2025",
+    "version": "2.0.0",
+    "icon": "media/icons/P8653461.png",
+    "description": "Starship is a port of the Nintendo 64 game “Star Fox 64” to the Nintendo Switch. This port features many improvements like widescreen, higher frame-rates, and more."
+  },
+  "P0530742": {
+    "type": "port",
+    "name": "Super Mario 64",
+    "release": "Unknown",
+    "version": "1.0.0",
+    "icon": "media/icons/P0530742.png",
+    "description": "This port of Super Mario 64 adds a ton of features, proper widescreen, steady 60 FPS, analog camera control, a full cheats menu, and so much more."
+  },
+  "P5300477": {
+    "type": "port",
+    "name": "The Simpsons Hit & Run",
+    "release": "10-05-2023",
+    "version": "0.6.1",
+    "icon": "media/icons/P5300477.png",
+    "description": "This is a port of The Simpsons Hit & Run to the Nintendo Switch based on the leaked source code. The full game should be playable, including local multiplayer in the bonus game. The port is however still incomplete, so some glitches can be observed and some visual effects are missing compared to the PC version."
+  },
+  "P2775334": {
+    "type": "port",
+    "name": "Xash3D FWGS",
+    "release": "5-06-2021",
+    "version": "Latest",
+    "icon": "media/icons/P2775334.png",
+    "description": "Xash3D (pronounced [ksɑʂ]) FWGS is a game engine, aimed to provide compatibility with Half-Life Engine and extend it, as well as to give game developers well known workflow."
   }
 }

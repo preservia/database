@@ -11,8 +11,10 @@
     "type": "port",
     "name": "2Ship2Harkinian",
     "release": "3-30-2024",
+    "author": "HarbourMasters",
     "version": "1.1.2",
     "icon": "media/icons/P6035059.png",
+    "shortDesc": "2Ship2Harkinian is a port of TLoZ: Majora's Mask to the Nintendo Switch.",
     "description": "2Ship2Harkinian is a port of The Legend of Zelda: Majora’s Mask to modern platforms. This version runs natively on the Nintendo Switch and it built with decompiled source code of the original game. It adds numerous improvements, such as widescreen support, higher frame rates, mod support, and features like randomizers, cheat menus, save-states, mod support, and so much more."
   },
   "P1946048": {

@@ -9,8 +9,7 @@ layout: default
 
   <div class="info">
     <p class="meta">
-      {% if page.platform %}{{ page.platform }}{% endif %}
-      {% if page.release %} • {{ page.release }}{% endif %}
+      By {{ page.author }}
       {% if page.preserve_id %} • <code>{{ page.preserve_id }}</code>{% endif %}
     </p>
   </div>

@@ -20,12 +20,17 @@ It is recommended you create a NAND backup before installing custom fonts as you
 4. Select `CIA Image Options...` then `Install Game Image`.
 5. Press `B` until you are on the main menu, then press `Start`
 
+Your system should reboot with your custom font installed.
+
+#### Removing a Custom Font
+To remove a custom font, download the original [System Font]() and reinstall it using the same installation method as above. 
+
 ## Custom Font Compatibility
 
 {: .notice }
-Please be aware that custom fonts **overwrite the system font**. Games that use the system font will instead display your installed custom font, this may cause issues in certain games.
+Please be aware that custom fonts **overwrite the system font**. Games that use the system font will instead display your installed custom font, this *may* cause issues in certain games.
 
-Here is a list of apps and games that use the system font for text in-game:
+Here is a list of some apps and games that use the system font for text in-game:
 - Streetpass Mii Plaza
 - Settings
 - Tomodachi Life
@@ -36,4 +41,4 @@ Here is a list of apps and games that use the system font for text in-game:
 - Kid Icarus Uprising
 - Dillon's Dead-Heat Breakers
 
-To remove a custom font, just reinstall the [System Font]() using the same method you used to install the custom one.
+Not every game is listed here, you may encounter your own issues, if you do please let us know by creating an issue on the GitHub repository.

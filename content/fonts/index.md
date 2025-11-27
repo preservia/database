@@ -15,8 +15,7 @@ It is recommended you create a NAND backup before installing custom fonts as you
 
 ## How to Install a Font
 1. Put a downloaded `.cia` file on your (micro)SD Card.
-2. Turn your 3DS on while holding the `Start` button.
-  1. If a menu opens, select `GodMode9` and press `A`.
+2. Turn your 3DS on while holding the `Start` button to open GodMode9.
 3. Navigate to your SD Card, then to where your put your `.cia` and select it.
 4. Select `CIA Image Options...` then `Install Game Image`.
 5. Press `B` until you are on the main menu, then press `Start`

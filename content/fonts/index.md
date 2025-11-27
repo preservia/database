@@ -28,6 +28,11 @@ To remove a custom font, download the original [System Font]() and reinstall it 
 
 ---
 
+## Recently Added Fonts
+Coming soon!
+
+---
+
 ## Gallery
 
 {% if page.images %}
@@ -57,6 +62,8 @@ Here is a list of some apps and games that use the system font for text in-game:
 - Dillon's Dead-Heat Breakers
 
 Not every game is listed here, you may encounter your own issues, if you do please let us know by creating an issue on the GitHub repository.
+
+---
 
 ### Additional Info and Thanks
 

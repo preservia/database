@@ -1,5 +1,5 @@
 ---
-title: Home
+title: PreserveDB
 nav_order: 1
 og_image: /assets/site-preview.png
 featured: 

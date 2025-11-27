@@ -59,7 +59,8 @@ Here is a list of some apps and games that use the system font for text in-game:
 Not every game is listed here, you may encounter your own issues, if you do please let us know by creating an issue on the GitHub repository.
 
 ### Additional Info and Thanks
+
 {: .notice }
 Create your *own* fonts for your 3DS by following [AromaKitsunes Guide](https://aromakitsune.github.io/3DS-System-Font-Customization)!
 
-This guide was used to create all the fonts available on this site, AromaKitsune was also nice enough to allow their created fonts to be uploaded onto this site, so big shoutout to them! For more info and support about creating your own fonts for 3DS, or other 3DS customization, join the ["Custom 3DS Assets Discord Server"](https://discord.gg/0z7IGZ5Sv3D0mEN0).
+This guide was used to create all the fonts available on this site, AromaKitsune was also nice enough to allow their created fonts to be uploaded onto this site, so big shoutout to them! For more info and support about creating your own fonts for 3DS, or other 3DS customization, join the ["Custom 3DS Assets" Discord Server](https://discord.gg/0z7IGZ5Sv3D0mEN0).

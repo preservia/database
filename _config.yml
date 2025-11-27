@@ -19,6 +19,6 @@ callouts:
   important:
     title: Important
     color: green
-	  
+
 nav_enabled: true
 nav_sort: case_sensitive

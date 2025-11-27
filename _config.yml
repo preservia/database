@@ -18,6 +18,8 @@ aux_links:
 callouts:
   notice:
     color: green
+  warning:
+    color: red
 
 nav_enabled: true
 nav_sort: case_sensitive

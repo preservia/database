@@ -16,8 +16,7 @@ aux_links:
     - "/fonts"
 
 callouts:
-  important:
-    title: Important
+  notice:
     color: green
 
 nav_enabled: true

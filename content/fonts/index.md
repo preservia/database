@@ -9,8 +9,8 @@ A growing collection of fonts ported to the Nintendo 3DS.
 
 ### Custom Font Disclaimer
 
-{: .important }
-> Please be aware that custom fonts replace the system font. Games that use the system font will instead display your installed custom font, this may cause issues in certain games.
+{: .notice }
+Please be aware that custom fonts replace the system font. Games that use the system font will instead display your installed custom font, this may cause issues in certain games.
 
 Here is a list of apps and games that use the system font:
 - Streetpass Mii Plaza

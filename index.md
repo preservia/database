@@ -34,6 +34,7 @@ Welcome to **PreserveDB**, the official content database for  Preservia. Here yo
 
 - [Games](./content/games/index.md)
 - [Ports](./content/ports/index.md)
+- [Fonts](./content/fonts/index.md)
 - [Homebrew](./content/homebrew/index.md)
 - [Mods](/)
 - [Firmware](/)
@@ -42,7 +43,7 @@ Welcome to **PreserveDB**, the official content database for  Preservia. Here yo
 
 ## About
 
-Preservia is a digital preservation project, mainly focused on preserving content associated with the Nintendo Switch, including games, updates, DLC, mods, homebrew, firmware, and a whole lot more. Currently, only homebrew software is available to the public. While the Nintendo Switch is the main focus of this project, some content for some other consoles will be available as well.
+Preservia is a digital preservation project, mainly focused on preserving content associated with the Nintendo Switch, including games, updates, DLC, mods, homebrew, firmware, and a whole lot more. Currently, only homebrew software is available to the public. While the Nintendo Switch is the main focus of this project, some content for other consoles will be available as well.
 
 ---
 

@@ -15,6 +15,10 @@ aux_links:
   "The 3DS Font Library":
     - "/fonts"
 
-
+callouts:
+  important:
+	  title: Important
+	  color: green
+	  
 nav_enabled: true
 nav_sort: case_sensitive

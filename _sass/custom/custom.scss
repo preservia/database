@@ -1,4 +1,4 @@
-.game-header {
+.header {
   display: flex;
   align-items: center;
   margin-bottom: 1.5rem;
@@ -13,7 +13,13 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
-.game-info {
+.font-preview {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+}
+
+.info {
   display: flex;
   flex-direction: column;
 }
@@ -24,7 +30,7 @@
   font-weight: 700;
 }
 
-.game-meta {
+.meta {
   margin-top: 0.25rem;
   font-size: 0.95rem;
   color: #999;

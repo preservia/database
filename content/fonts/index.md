@@ -33,7 +33,7 @@ To remove a custom font, download the original [System Font]() and reinstall it 
 {% if page.images %}
 <div class="gallery">
   {% for i in (1..page.images) %}
-  <img src="./assets/galleries/fonts/{{ i }}.png?raw=true" alt="Image {{ i }}">
+  <img src="/assets/galleries/fonts/{{ i }}.png?raw=true" alt="Image {{ i }}">
   {% endfor %}
 </div>
 {% endif %}

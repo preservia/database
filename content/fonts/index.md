@@ -12,7 +12,7 @@ A growing collection of fonts ported to the Nintendo 3DS.
 Never uninstall CFW while a custom font is installed. **This will fully brick your console!** If this happens you'll need a [DS flashcart with ntrboot](https://www.flashcarts.net/ds-quick-start-guide) to re-install boot9strap.
 
 {: .notice }
-It is recommended you create a NAND backup before installing custom fonts as you will be modifying system files. Doing so is safe since boot9strap provides brick protection but it is still recommended that you make a backup. If your home menu fails to launch after installing a custom font, view [this section](#removing-a-custom-font).
+It is recommended you create a NAND backup before installing custom fonts as you will be modifying system files. Doing so is safe since boot9strap provides brick protection but it is still recommended that you make a backup. If your home menu fails to launch after installing a custom font, view [*Removing a Custom Font*](#removing-a-custom-font).
 
 ## How to Install a Font
 1. Put a downloaded `.cia` file on your (micro)SD Card.
@@ -43,6 +43,10 @@ Coming soon!
 </div>
 {% endif %}
 
+#### Themes used (in-order):
+
+[Undertale Waterfall](https://themeplaza.art/item/102183) • [Minecraft Panorama](https://themeplaza.art/item/52215) • [The Final Fall](https://themeplaza.art/item/85988)
+{: .fs-2 }
 ---
 
 ## Custom Font Compatibility

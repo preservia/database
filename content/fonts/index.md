@@ -2,7 +2,7 @@
 title: Fonts
 parent: Content
 nav_order: 3
-images: 1
+images: 3
 ---
 
 # Fonts

@@ -75,82 +75,80 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-.featured-wrapper {
+.content-card {
+  display: inline-block;
+  width: 220px;
+  background: var(--bg-tertiary);
+  margin-right: 12px;
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+}
+
+.game-card {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+
+.card-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card-meta {
+  opacity: 0.7;
+  font-size: 13px;
+}
+
+.card-version {
+  margin-left: 6px;
+}
+
+.font-card {
+  width: 350px;
+  height: 100px;
+  padding: 0;
+}
+
+.font-preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-row {
   display: flex;
   gap: 1rem;
   overflow-x: auto;
   padding: .3rem 0 1rem 0;
   scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: #333 transparent;
 }
 
-.featured-card {
-  display: flex;
-  align-items: center;
-  background: #1f1f1f;
-  padding: 1rem;
-  border-radius: 15px;
-  min-width: 260px;
-  max-width: 260px;
-  text-decoration: none;
-  color: inherit;
-  box-shadow: 0 0 0 1px #2a2a2a inset;
-  scroll-snap-align: start;
-  transition: transform .15s ease, box-shadow .15s ease;
-}
-
-.featured-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 0 8px rgba(0,0,0,.4), 0 0 0 1px #3a3a3a inset;
-}
-
-.featured-icon {
-  width: 64px;
-  height: 64px;
-  border-radius: 12px;
-  flex-shrink: 0;
-  object-fit: cover;
-  background: #333;
-}
-
-.featured-info {
-  margin-left: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: .3rem;
-}
-
-.featured-title {
-  font-size: 1.05rem;
-  font-weight: 600;
-  color: #eaeaea;
-  margin-bottom: .1rem;
-}
-
-.featured-meta {
-  display: flex;
-  gap: .5rem;
-  align-items: center;
-  font-size: .85rem;
-  color: #bdbdbd;
-}
-
-.featured-meta code {
-  background: #2b2b2b;
-  padding: .15rem .35rem;
-  border-radius: 6px;
-  border: 1px solid #3a3a3a;
-  font-size: .8rem;
-}
-
-.featured-wrapper::-webkit-scrollbar {
+.content-row::-webkit-scrollbar {
   height: 6px;
 }
 
-.featured-wrapper::-webkit-scrollbar-thumb {
+.content-row::-webkit-scrollbar-thumb {
   background: #333;
   border-radius: 6px;
 }
 
-.featured-wrapper::-webkit-scrollbar-track {
+.content-row::-webkit-scrollbar-track {
   background: #1b1b1b;
 }

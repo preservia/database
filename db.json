@@ -112,5 +112,12 @@
     "version": "Latest",
     "icon": "media/icons/P2775334.png",
     "description": "Xash3D (pronounced [ksɑʂ]) FWGS is a game engine, aimed to provide compatibility with Half-Life Engine and extend it, as well as to give game developers well known workflow."
+  },
+  "F3072152": {
+    "type": "font",
+    "name": "Splatoon 2",
+    "author": "Preservia",
+    "version": "Latest",
+    "icon": "media/icons/F3072152.png"
   }
 }

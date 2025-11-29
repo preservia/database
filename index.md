@@ -16,7 +16,7 @@ Welcome to **PreserveDB**, the official content database for  Preservia. Here yo
 
 ## Featured Content
 
-<div id="featured-container" class="featured-wrapper">
+<div id="featured-content" class="content-row">
   Loading…
 </div>
 
@@ -24,7 +24,7 @@ Welcome to **PreserveDB**, the official content database for  Preservia. Here yo
 
 ## Recently Added
 
-<div id="recently-container" class="featured-wrapper">
+<div id="recently-added" class="content-row">
 	Loading...
 </div>
 
@@ -48,106 +48,24 @@ Preservia is a digital preservation project, mainly focused on preserving conten
 ---
 
 <script>
-document.addEventListener("DOMContentLoaded", async () => {
-  const container = document.getElementById("featured-container");
-
-  const featuredIDs = [
-    {% for f in page.featured %}
-      "{{ f }}",
-    {% endfor %}
-  ].filter(x => x && x.trim().length > 0);
-
-  try {
-    const response = await fetch("/database/db.json"); 
-    const db = await response.json();
-
-    container.innerHTML = "";
-
-    featuredIDs.forEach(id => {
-      const entry = db[id];
-      if (!entry) {
-        container.innerHTML += `<div class="featured-card missing">Missing entry for ${id}</div>`;
-        return;
-      }
-
-      const typePlural = entry.type + "s";
-      const pageURL = `/database/content/${typePlural}/${id}.html`;
-
-      const iconURL =
-        `https://raw.githubusercontent.com/preservia/media/refs/heads/main/icons/${id}.png`;
-
-		container.innerHTML += `
-			<a href="${pageURL}" class="featured-card">
-				<img src="${iconURL}" class="featured-icon" alt="${entry.name} icon">
-				<div class="featured-info">
-					<div class="featured-title">${entry.name}</div>
-					<div class="featured-meta">
-						<span class="featured-type">${entry.type.charAt(0).toUpperCase()}${entry.type.slice(1)}</span>
-       	 				${
-							entry.version
-							? `<code class="featured-version">v${entry.version}</code>`
-							: ""
-						}
-					</div>
-				</div>
-			</a>
-		`;
-    });
-
-  } catch (err) {
-    container.innerHTML = "Error loading featured content.";
-    console.error(err);
-  }
+document.addEventListener("DOMContentLoaded", () => {
+  renderContentList({
+    elementId: "featured-content",
+    featuredIDs: [
+      {% for id in page.featured %}
+        "{{ id }}",
+      {% endfor %}
+    ]
+  });
 });
 </script>
 
 <script>
-document.addEventListener("DOMContentLoaded", async () => {
-  const container = document.getElementById("recently-container");
-
-  try {
-    const response = await fetch("/database/db.json");
-    const db = await response.json();
-
-    container.innerHTML = "";
-
-    const allIDs = Object.keys(db);
-    const recentIDs = allIDs.slice(-5).reverse();
-
-    recentIDs.forEach(id => {
-      const entry = db[id];
-      if (!entry) {
-        container.innerHTML += `<div class="featured-card missing">Missing entry for ${id}</div>`;
-        return;
-      }
-
-      const typePlural = entry.type + "s";
-      const pageURL = `/database/content/${typePlural}/${id}.html`;
-
-      const iconURL =
-        `https://raw.githubusercontent.com/preservia/media/refs/heads/main/icons/${id}.png`;
-
-      container.innerHTML += `
-        <a href="${pageURL}" class="featured-card">
-          <img src="${iconURL}" class="featured-icon" alt="${entry.name} icon">
-          <div class="featured-info">
-            <div class="featured-title">${entry.name}</div>
-            <div class="featured-meta">
-              <span class="featured-type">${entry.type.charAt(0).toUpperCase()}${entry.type.slice(1)}</span>
-              ${
-                entry.version
-                ? `<code class="featured-version">v${entry.version}</code>`
-                : ""
-              }
-            </div>
-          </div>
-        </a>
-      `;
-    });
-
-  } catch (err) {
-    container.innerHTML = "Error loading recently added content.";
-    console.error(err);
-  }
+document.addEventListener("DOMContentLoaded", () => {
+  renderContentList({
+    elementId: "recently-added",
+    count: 10,
+    filterType: "all"
+  });
 });
 </script>

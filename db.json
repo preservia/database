@@ -119,5 +119,19 @@
     "author": "Preservia",
     "version": "Latest",
     "icon": "media/icons/F3072152.png"
+  },
+  "F4719209": {
+    "type": "font",
+    "name": "ZeldaGlyphs",
+    "author": "Preservia",
+    "version": "Latest",
+    "icon": "media/icons/F4719209.png"
+  },
+  "F4810713": {
+    "type": "font",
+    "name": "Mojangles",
+    "author": "AspectX",
+    "version": "Latest",
+    "icon": "media/icons/F4810713.png"
   }
 }

@@ -1,4 +1,3 @@
-<script>
 let PRESERVIA_DB_CACHE = null;
 
 async function loadPreserviaDB() {
@@ -88,4 +87,3 @@ async function renderContentList(options) {
         container.innerHTML = "Error loading content.";
     }
 }
-</script>

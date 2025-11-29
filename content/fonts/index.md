@@ -29,7 +29,10 @@ To remove a custom font, download the original [System Font]() and reinstall it 
 ---
 
 ## Recently Added Fonts
-Coming soon!
+
+<div id="recently-added-fonts" class="content-row">
+  Loading...
+</div>
 
 ---
 
@@ -75,3 +78,15 @@ Not every game is listed here, you may encounter your own issues, if you do plea
 Create your *own* fonts for your 3DS by following [AromaKitsunes Guide](https://aromakitsune.github.io/3DS-System-Font-Customization)!
 
 This guide was used to create all the fonts available on this site, AromaKitsune was also nice enough to allow their created fonts to be uploaded onto this site, so big shoutout to them! For more info and support about creating your own fonts for 3DS, or other 3DS customization, join the ["Custom 3DS Assets" Discord Server](https://discord.gg/0z7IGZ5Sv3D0mEN0).
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  renderContentList({
+    elementId: "recently-added-fonts",
+    count: 5,
+    filterType: "font"
+  });
+});
+</script>

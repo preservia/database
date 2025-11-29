@@ -24,7 +24,6 @@ Welcome to **PreserveDB**, the official content database for  Preservia. Here yo
 
 ## Recently Added
 
-
 <div id="recently-added-display" class="content-row">
   Loading...
 </div>

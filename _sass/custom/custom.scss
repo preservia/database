@@ -5,12 +5,21 @@
   gap: 1rem;
 }
 
-.header-vert {
+.header-font {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 1.5rem;
   gap: 1rem;
+}
+
+@media (max-width: 768px) {
+	.header-font {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  margin-bottom: 1.5rem;
+	  gap: 1rem;
+	}
 }
 
 .game-icon {

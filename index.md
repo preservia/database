@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   renderContentList({
     elementId: "recently-added-display",
-    count: 10,
+    count: 5,
     filterType: "all"
   });
 });

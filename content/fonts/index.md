@@ -83,7 +83,7 @@ This guide was used to create all the fonts available on this site, AromaKitsune
 - [AromaKitsune](https://github.com/AromaKitsune) - Made the custom font guide and inspired me to port some fonts.
 - OctoRuler - Helped with testing and the font compatibility issues section.
 - [3DSAspect](https://github.com/3DSAspect) - Provided Mojangles font and images.
-- [The "Custom 3DS Assets" Discord Server](https://discord.gg/0z7IGZ5Sv3D0mEN0) - Everyone over here is **super** nice, helpful, and patient. It’s a small (and kinda quiet) server, but it's full of great people!
+- [The "Custom 3DS Assets" Server](https://discord.gg/0z7IGZ5Sv3D0mEN0) - Everyone over here is **super** nice, helpful, and patient. It’s a small (and kinda quiet) server, but it's full of great people!
 
 
 

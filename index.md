@@ -16,7 +16,7 @@ Welcome to **PreserveDB**, the official content database for  Preservia. Here yo
 
 ## Featured Content
 
-<div id="featured-content" class="content-row">
+<div id="featured-content-display" class="content-row">
   Loading…
 </div>
 
@@ -24,8 +24,9 @@ Welcome to **PreserveDB**, the official content database for  Preservia. Here yo
 
 ## Recently Added
 
-<div id="recently-added" class="content-row">
-	Loading...
+
+<div id="recently-added-display" class="content-row">
+  Loading...
 </div>
 
 ---
@@ -50,7 +51,7 @@ Preservia is a digital preservation project, mainly focused on preserving conten
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   renderContentList({
-    elementId: "featured-content",
+    elementId: "featured-content-display",
     featuredIDs: [
       {% for id in page.featured %}
         "{{ id }}",
@@ -63,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   renderContentList({
-    elementId: "recently-added",
+    elementId: "recently-added-display",
     count: 10,
     filterType: "all"
   });

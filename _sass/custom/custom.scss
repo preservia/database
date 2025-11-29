@@ -50,6 +50,7 @@
   scroll-snap-type: x mandatory;
   scrollbar-width: thin;
   scrollbar-color: #ccc transparent;
+  scroll-snap-align: start;
 }
 
 .gallery::-webkit-scrollbar {
@@ -151,4 +152,9 @@
 
 .content-row::-webkit-scrollbar-track {
   background: #1b1b1b;
+}
+
+.content-row > * {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
 }

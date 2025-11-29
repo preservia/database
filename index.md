@@ -10,7 +10,7 @@ featured:
 
 # PreserveDB
 
-Welcome to **PreserveDB**, the official content database for  Preservia. Here you’ll find detailed information about all content archived by Preservia.
+Welcome to **PreserveDB**, the official content database for  Preservia! Here you can browse the all the different content Preservia has to offer and view detailed info about the things you are curious about. You can easily navigate to exactly where you want to go by using the sidebar and search features. To see more information regarding PreserveDB, check out the [*Information*](./information.md) page.
 
 ---
 
@@ -32,12 +32,12 @@ Welcome to **PreserveDB**, the official content database for  Preservia. Here yo
 
 ## Browse Content By Type
 
-- [Games](./content/games/index.md)
+- [Games](./content/games/index.md) (Coming soon.)
 - [Ports](./content/ports/index.md)
 - [Fonts](./content/fonts/index.md)
-- [Homebrew](./content/homebrew/index.md)
-- [Mods](/)
-- [Firmware](/)
+- [Homebrew](./content/homebrew/index.md) (Coming soon.)
+- [Mods](/) (Coming soon.)
+- [Firmware](/) (Coming soon.)
 
 ---
 

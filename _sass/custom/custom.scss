@@ -16,7 +16,9 @@
 .font-preview {
   width: 300px;
   height: auto;
-  border-radius: 12px;
+  border-radius: 16px;
+  background: #1f1f1f;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .info {
@@ -79,12 +81,11 @@
 .content-card {
   display: inline-block;
   width: 220px;
-  background: var(--bg-tertiary);
+  background: #1f1f1f;
   margin-right: 12px;
-  border-radius: 12px;
+  border-radius: 16px;
   overflow: hidden;
   text-decoration: none;
-  color: inherit;
 }
 
 .game-card {

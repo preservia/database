@@ -30,7 +30,7 @@ To remove a custom font, download the original [System Font]() and reinstall it 
 
 ## Recently Added Fonts
 
-<div id="recently-added-fonts" class="content-row">
+<div id="recently-added" class="content-row">
   Loading...
 </div>
 
@@ -84,7 +84,7 @@ This guide was used to create all the fonts available on this site, AromaKitsune
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   renderContentList({
-    elementId: "recently-added-fonts",
+    elementId: "recently-added",
     count: 5,
     filterType: "font"
   });

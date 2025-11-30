@@ -18,6 +18,9 @@ This page has detailed information about how the PreserveDB works, choose a sect
 
 A PreserveID is a unique ID given to each content entry in the PreserveDB. PreserveIDs are used to easily give content a consistent ID, allowing Preservia to have a universal way to keep track of content of different types.
 
+## Additional Info
+
+
 #### `.json` Links
 
 `db.json` - All content in PreserveDB in .json format

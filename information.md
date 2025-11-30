@@ -4,7 +4,12 @@ nav_order: 3
 ---
 
 # Information
+{: .no_toc }
+
 This page has detailed information about how the PreserveDB works, choose a section below to browse.
+
+## Table of Contents
+{: .no_toc .text-delta }
 
 1. TOC
 {:toc}
